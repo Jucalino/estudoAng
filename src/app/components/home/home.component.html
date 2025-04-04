@@ -1,17 +1,5 @@
-<h1>Jucas comandando tudo</h1>
+<h1>
+    {{ minhaPropsDeFora }}
+</h1>
 
 <button (click)="submit()">Clique</button>
-
-@if(deveMostrarTitulo){
-    <h1>Meu titulo</h1>
-} @else if (name == "Jucas") {
-    <h1>titulo Jucas</h1>
-} @else {
-    <h1>Nada</h1>
-}
-
-@for(item of listItems; track item) {
-    <p>{{ item }}</p>
-}
-
-<p *ngFor="let item of listItems">{{ item }}</p>

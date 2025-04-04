@@ -10,4 +10,9 @@ import { HomeComponent } from './components/home/home.component';
 })
 export class AppComponent {
   title = 'appAngular';
+
+  
+  logar(event: string){
+    console.log(event)
+  }
 }
